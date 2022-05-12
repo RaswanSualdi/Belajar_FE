@@ -1,0 +1,115 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* CSS Header */
+/* body{
+	height:2000px;
+} */
+.header{
+    background-color: #361500;
+    height: 70px;
+    /* opacity: 0.8; */
+    width: 100%;
+	display:flex;
+	position: fixed;
+	
+}
+
+.header .menu {
+    display:flex;
+    padding: 30px;
+    justify-content: center;
+	margin-left: 260px;
+
+}
+
+.header .menu h3{
+    margin-left: 45px;
+    color:blanchedalmond;
+    font-size: 15px;
+    font-family: sans-serif; 
+	 
+}
+
+.header .menu h3 a{
+    text-decoration: none;
+    color:blanchedalmond ;
+	
+}
+
+.header .logo img{
+	height:60px;
+	padding-left: 30px;
+	margin-top: 5px;
+}
+
+/* End CSS header */
+.content .hero1{
+	width: 100%;
+	/* height: 600px; */
+}
+
+.bodycoffe img{
+	height:280px;
+	margin-top: 5px;
+}
+
+.footer{
+    background-color: #361500;
+	height:50px;
+	bottom:0;
+}
+
+.footer h5{
+	
+    color:blanchedalmond;
+    font-size: 15px;
+    font-family: sans-serif;
+	text-align: center;
+	padding-top: 20px;
+}
+
+/* content */

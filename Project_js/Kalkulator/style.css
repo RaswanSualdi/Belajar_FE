@@ -1,0 +1,33 @@
+.container{
+    background-color: #8aa192;
+    width:200px ;
+    height: 310px;
+    border-radius:10px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px;
+}
+
+
+
+.button{
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+}
+
+.button_value {
+    border-radius: 50px;
+    height: 80px;
+    width: 40px;
+}
+
+.equal{
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+
+table{
+    margin-top: 20px;
+}

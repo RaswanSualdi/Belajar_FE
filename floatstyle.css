@@ -1,0 +1,38 @@
+.container{
+    border: 5px solid black;
+    width: 900px;
+    margin: auto;
+    display: flex;
+
+}
+
+
+.satu{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    /* float: left; */
+
+    /* display: flex; */
+}
+
+
+.dua{
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    /* float: left; */
+}
+
+.tiga{
+    background-color: antiquewhite;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    /* float: left; */
+}
